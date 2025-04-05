@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim IIT - Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-section">
+        <h1>Aim IIT</h1>
+    </header>
+
+    <main>
+        <!-- Countdown Timer -->
+        <section class="countdown-section">
+            <h2>Time Left</h2>
+            <div class="countdown-container">
+                <div class="countdown-box"><span id="daysLeft">315</span><p>Days</p></div>
+                <div class="countdown-box"><span id="hoursLeft">00</span><p>Hours</p></div>
+                <div class="countdown-box"><span id="minutesLeft">00</span><p>Minutes</p></div>
+                <div class="countdown-box"><span id="secondsLeft">00</span><p>Seconds</p></div>
+            </div>
+        </section>
+
+        <!-- Motivational Image Slider -->
+        <section class="image-slider">
+            <div class="slider">
+                <img src="motivation1.jpg" alt="Motivation 1" class="slide">
+                <img src="motivation2.jpg" alt="Motivation 2" class="slide">
+                <img src="motivation3.jpg" alt="Motivation 3" class="slide">
+                <img src="motivation4.jpeg" alt="Motivation 4" class="slide">
+                <img src="motivation5.jpg" alt="Motivation 5" class="slide">
+                <img src="motivation6.jpeg" alt="Motivation 6" class="slide">
+                <img src="motivation7.jpg" alt="Motivation 7" class="slide">
+                <img src="motivation8.jpg" alt="Motivation 8" class="slide">
+                <img src="motivation9.jpeg" alt="Motivation 9" class="slide">
+                <img src="motivation0.jpeg" alt="Motivation 0" class="slide">
+                <img src="motivation10.jpg" alt="Motivation 10" class="slide">
+                <img src="motivation11.jpg" alt="Motivation 11" class="slide">
+                <img src="motivation12.jpeg" alt="Motivation 12" class="slide">
+                <img src="motivation13.jpg" alt="Motivation 13" class="slide">
+                <img src="motivation14.jpg" alt="Motivation 14" class="slide">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+            <div class="quote-overlay">
+                <p id="dailyQuote">"The struggle you're in today is developing the strength you need for tomorrow,"</p>
+            </div>
+        </section>
+
+        <!-- Social Media Handles -->
+        <section class="social-media-section">
+            <h2>Connect with ion ~</h2>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
